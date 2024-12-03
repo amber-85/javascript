@@ -1,0 +1,41 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.search__group{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+    align-self: center;
+
+}
+.search__btn{
+    width: max-content;
+    height: max-content;
+    padding:.5rem  1rem;
+    background-color: rgb(229, 209, 248);
+    color: rgb(114, 1, 80);
+    font-size: 20px;
+    border: none;
+}
+
+#search__city{
+    width: 10rem;
+    height: 2rem;
+    font: 20px;
+    font-weight: 600;
+}
+
+.weather__info{
+    border: 2px solid black;
+    width: 30rem;
+    height: 20rem;
+    align-self:flex-start;
+ 
+
+}

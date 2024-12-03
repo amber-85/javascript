@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title> Kirby Star</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header><h1 class="title">Kirby Star</h1></header>
+        <main class="game__container">
+            <article class="status__group">
+                <section class="status__frame happy">
+                    <img src="" alt="happy" class="happy__img">
+                    <p class="number happy__number">10/10</p>    
+                    <p class="notification notification__happy">I am so happy!</p>   
+                </section>
+                <section class="status__frame hunger">
+                    <img src="" alt="hunger" class="hunger__img">
+                    <p class="number hunger__number">10/10</p>
+                    <p class="notification notification__hunger">I am full!</p>               
+                </section>
+                <section class="status__frame tiredness">
+                    <img src="" alt="tiredness" class="tiredness__img">
+                    <p class="number tiredness__number">10/10</p>
+                    <p class="notification notification__tiredness">I am energetic!</p>
+                </section>
+            </article>
+          
+            <article class="kirby">
+                <section class="kirby__head">
+                    <section class="kirby__eyes left">
+                        <aside class="kirby__eyesball__left"></aside>
+                    </section>
+                    <section class="kirby__eyes__died left">&times;</section>
+                    <section class="kirby__eyes right">
+                        <aside class="kirby__eyesball__right"></aside>
+                    </section>
+                    <section class="kirby__eyes__died right">&times;</section>
+                    <section class="kirby__mouth"></section>
+                    <section class="kirby__mouth__angry"></section>
+                    <section class="kirby__mouth__dieing">&times;</section>
+                </section>
+                <section class="kirby__foot__left"></section>
+                <section class="kirby__foot__right"></section>
+            </article>
+
+            <article class="button__group">
+                <button class="button feed__button">feed</button>
+                <button class="button play__button">play</button>
+                <button class="button sleep__button">sleep</button>
+            </article>
+            <img src="./img/tired.png" alt="tireness" class="tired__img">
+            <img src="./img/star.png" alt="star" class="popup__star">
+            <img src="./img/super-tired.png" alt="super tired" class="super__tired__img">
+            <img src="./img/angry.png" alt="angry sign" class="angry__img">
+        </main>
+        <aside class="popup__page">
+            <section class="popup__content">
+                <h2 class="gameover">GAME OVER</h2>
+                <button class="reset__button">Play Again</button>
+            </section>
+        </aside>   
+    </div>
+   
+
+
+</body>
+</html>

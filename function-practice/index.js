@@ -3,9 +3,10 @@
 // Skriv en funktion som tar en sträng som parameter och returnerar längden på en sträng. 
 // Anropa funktion och console.log svaret. Tips! Du kan skriva .length på en variabel som är en sträng för att få längden.
 
- /*let userInput=prompt("guess how long is the word you write?")
- function wordLength(userInput){
-     console.log(userInput+' '+'has'+' '+userInput.length+' '+'letters');
+/*
+ let userInput=prompt("guess how long is the word you write?")
+ function wordLength(input){
+     console.log(input,"has",input.length,"letters");
  }
  wordLength(userInput);*/
 
@@ -16,7 +17,6 @@ let userInput=prompt("please enter the date in YYYY-MM-DD.")
 function yearSelector(){
     console.log("The year is"+" "+userInput.substring(0,4))
 }
-
 yearSelector() */
 
 /*ÖVNINGAR 3
@@ -25,7 +25,7 @@ Utför beräkningen och returnera summan och skriv ut. Det ska enbart gå att sk
 och varje operation ska vara sin egen funktion. Tips! Här kan typeof vara bra att*/
 
 
- /*   let Num1=Number(prompt("Number 1"));
+   let Num1=Number(prompt("Number 1"));
     let Num2=Number(prompt("Number2"))
     let Operation=prompt("Choose an operation:+,-,*,/");
 function Calculator(a,b,operation){
@@ -41,6 +41,6 @@ function Calculator(a,b,operation){
         default:"invalid operation";
     }
 }
- console.log(Calculator(Num1,Num2,Operation));*/
+ console.log(Calculator(Num1,Num2,Operation));
 
  

@@ -1,0 +1,7 @@
+create a pet with html and css
+interaction buttons. 3:feed, play, and sleep
+3 status indication:hunger, happiness, and energy
+time interveral. 
+change the appearance of pet based on their status. i.e. change color 
+when the status is lower than 0, what happended?
+information should save in local storage that pet should have same status when we play again.

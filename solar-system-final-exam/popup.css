@@ -24,31 +24,31 @@
 
 .planet__solid{
     position:absolute;
-    left:-140px;
-    top:80px;
+    left:-480px;
+    top:30px;
     border-radius: 100%; 
-    width: 15vw;
-    height: 80vh;
+    width: 40vw;
+    height: 100vh;
 
 }
 
 .planet__ring--inner{
     position:absolute;
-    left:-170px;
-    top:64px;
+    left:-580px;
+    top:-5px;
     border-radius: 100%; 
-    width: 20vw;
-    height: 85vh;
+    width: 50vw;
+    height: 110vh;
     opacity: 0.2;
 }
 
 .planet__ring--outer{
     position:absolute;
-    left:-190px;
-    top:40px;
+    left:-680px;
+    top:-40px;
     border-radius: 100%; 
-    width: 25vw;
-    height: 90vh;
+    width: 60vw;
+    height: 120vh;
     opacity: 0.1;
 }
 

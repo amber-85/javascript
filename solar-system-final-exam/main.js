@@ -1,4 +1,6 @@
 
+// use DOM to create variables to edit HTML elements.
+// create variable for each plantet and panet rings on popup rings
 
     const planetSun=document.querySelector("aside.sun");
     const planetMercury=document.querySelector(".mercury");
@@ -16,6 +18,8 @@
     const planetOuterRing=document.querySelector(".planet__ring--outer")
 
 
+//create variable for each elements to visualize the description of each planet fetched from API
+
     const planetMoonsUl=document.querySelector(".moon__list");
     const planetName=document.querySelector(".planet__name");
     const planetLatinName=document.querySelector(".planet__latin");
@@ -27,34 +31,7 @@
   
 
     
-//     planetMercury.addEventListener("click",()=>{
-//         popupPage.style.display="block";
-//         getPlanetData(1,'latinName')
-//         .then(propertyValue=>{
-//             const planetLatinName=document.querySelector(".planet__latin")
-//             planetLatinName.innerHTML=propertyValue;
-//         });
-//         getPlanetData(2,'name')
-//         .then(propertyValue=>{
-//             const planetName=document.querySelector(".planet__name")
-//             planetName.innerHTML=propertyValue;
-//         });
-//         getPlanetData(2,'name')
-//         .then(propertyValue=>{
-//             const planetName=document.querySelector(".planet__name")
-//             planetName.innerHTML=propertyValue;
-//         })
-//         })
 
-//     planetVenus.addEventListener("click",()=>{
-//         popupPage.style.display="block";
-//         getPlanetData(2,'name')
-//         .then(propertyValue=>{
-//             const planetName=document.querySelector(".planet__name")
-//             planetName.innerHTML=propertyValue;
-//         })
-//     })
-    
 
 
 
@@ -91,7 +68,7 @@ method:'POST'})
             .then(tex =>{   
             //    console.log(tex.bodies[index]);
                 return tex.bodies[index];         
-            })
+    }) 
             .then(values=>{
                 planetName.innerHTML=values.name;
                 planetLatinName.innerHTML=values.latinName;

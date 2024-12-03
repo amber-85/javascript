@@ -19,15 +19,13 @@ body{
 
 .sun{
     grid-row: auto/span 3;
-    width: 15vw;
-    height: 80vh;
+    width: 40vw;
+    height: 100vh;
     background-color: rgb(255, 208, 41);
     border-radius: 100%; 
-    /* shape-outside: circle(50%);
-    clip-path: circle(20rem at left center); */
     align-self:center;
     position:absolute;
-    left:-130px;
+    left:-480px;
     cursor: pointer;
 }
 .header__frame{

@@ -479,7 +479,8 @@ EXTRA - kolla vem som var närmst det slumpade talet*/
 // högst på er lista väljas.
 // EXTRA - hitta den billigaste resan respektive den dyraste resan
 
-/*
+/* i found using entries and directly output object as an array, so i can use index
+but still i don't know how to loop through the array to compare with the values only
 const cities = {
     "Stockholm": 200,
     "New York": 4500,
@@ -732,19 +733,13 @@ const cities = {
     "Tegucigalpa": 21000,
     "San Salvador": 21100
 };
-const userBudget=Number(prompt("please enter your budget."));
-let minDiff=20000;
-let destionationIndex="";
-for (i=0;i<cities.length;i++){
-    if (userBudget>=cities[i].values){
-        let diff=Math.abs(cities.values()-userBudget);
-        if (diff<=minDiff){
-            minDiff=diff;
-            destionationIndex=i
-        }
+const cityArr=Object.entries(cities);
+function selectDestination(budget){
+    for (let i=0;i<cityArr.length;i++){
+        if (budget>=cityArr[i].values)
     }
-}
-console.log(cities[destionationIndex])*/
+}*/
+
 
 
 
